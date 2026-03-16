@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+     font-family: Verdana;
+}
+
+body {
+    background: thistle;
+}
+
+.titulo {
+    justify-content: flex-start;
+    margin: 5px;
+}
+
+.perfil{
+    border: 2px black solid;
+    background: gainsboro;
+    padding: 10px;
+    margin: 5px;
+}
+
+.profissao {
+    font-size: 12px;
+
+}
+
+.botao {
+    display: inline-block;
+    padding: 12px;
+    background-color: tan;
+    border: 2px black solid;
+}
