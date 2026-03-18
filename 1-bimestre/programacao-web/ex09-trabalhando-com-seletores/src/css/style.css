@@ -1,0 +1,13 @@
+#titulo {
+    text-align: center;
+    font-size: 10px;
+}
+
+.destaque {
+    color: purple;
+    font-weight: 100;
+}
+
+p {
+    font-family: Verdana;
+}

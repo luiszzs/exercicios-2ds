@@ -12,7 +12,7 @@ test("Evento click presente", () => {
 test("Utiliza textContent ou innerHTML", () => {
   constusaTextContent = js.includes("textContent");
   constusaInnerHTML = js.includes("innerHTML");
-  expect(usaTextContent || usaInnerHTML).toBe(true);
+  expect(constusaTextContent || constusaInnerHTML).toBe(true);
 });
 
 test("Mensagem alterada presente", () => {
