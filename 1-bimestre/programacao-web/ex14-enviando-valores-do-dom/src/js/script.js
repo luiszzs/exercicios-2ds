@@ -4,5 +4,5 @@ const resultado = document.getElementById("resultado")
 const valor =  input.value 
 
 botao.addEventListener("click", () => {
-    resultado.textContent = input.value
+    resultado.textContent = "Olá," + input.value
 })
