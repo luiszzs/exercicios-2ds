@@ -1,27 +1,24 @@
 import { render, screen } from "@testing-library/react"
-import { describe, test, expect } from "vitest"
+import { test, expect } from "vitest"
 import App from "../App"
 
-describe("App", () => {
-    test("renderiza um título h1", () => {
-        render(<App />)
+test("renderiza um título h1", () => {
+    render(<App />)
 
-        const titulo = screen.getByRole("heading")
-        expect(titulo).toBeTruthy()
-    })
+    const titulo = screen.getByRole("heading")
+    expect(titulo).toBeTruthy()
+})
 
-    test("exibe matéria favorita", () => {
-        render(<App />)
+test("exibe matéria favorita", () => {
+    render(<App />)
 
-        const texto = screen.getByText(/matéria favorita/i)
-        expect(texto).toBeTruthy()
-    })
+    const texto = screen.getByText(/matéria favorita/i)
+    expect(texto).toBeTruthy()
+})
 
-    test("exibe filme favorito", () => {
-        render(<App />)
+test("exibe filme favorito", () => {
+    render(<App />)
 
-        const filme = screen.getByText(/filme favorito/i)
-        expect(filme).toBeTruthy()
-    })
-
+    const filme = screen.getByText(/filme favorito/i)
+    expect(filme).toBeTruthy()
 })
