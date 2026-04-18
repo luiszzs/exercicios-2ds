@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  ex02-personalizando-sua-primeira-pagina-react:
-    name: ex02-personalizando-sua-primeira-pagina-react
+  aula02-primeira-pagina-com-react-e-conhecendo-o-jsx:
+    name: aula02-primeira-pagina-com-react-e-conhecendo-o-jsx
     runs-on: ubuntu-latest
     defaults:
       run:
