@@ -3,7 +3,7 @@ export default function App(){
   return(
     <div>
       <h1>Luis Guilherme</h1>
-      <p>Minha materia favorita é: {materia}</p>
+      <p>Matéria favorita é: {materia}</p>
     </div>
   )
 }
