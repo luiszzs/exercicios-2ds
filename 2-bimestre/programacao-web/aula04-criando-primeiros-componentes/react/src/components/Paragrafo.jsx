@@ -1,7 +1,7 @@
-export default function App(){
+export default function Paragrafo(){
     return (
         <div>
-            <p>estou aprendendo React</p>
+            <p>Estou aprendendo React</p>
         </div>
     )
 }

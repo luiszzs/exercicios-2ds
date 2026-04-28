@@ -1,7 +1,7 @@
-export default function App(){
+export default function Titulo(){
     return(
         <div>
-            <h1>meu Primeiro Componente</h1>
+            <h1>Meu Primeiro Componente</h1>
         </div>
     )
 }
