@@ -1,7 +1,7 @@
 export default function App(){
     return (
         <div>
-            <p>Estou aprendendo React</p>
+            <p>estou aprendendo React</p>
         </div>
     )
 }
