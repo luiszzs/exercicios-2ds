@@ -7,7 +7,17 @@ import mulher2 from "./assets/mulher2.png"
 export default function App(){
   return(
     <>
+    <div className="navbar">
+      <h1>TechVision</h1>
+      <h1>Sistema interno</h1>
+    </div>
 
+
+    <div className="titulo">
+    <h1>Usuários do Sistema</h1>
+    <h2>Conheça os membros da nossa equipe</h2>
+    </div>
+    <div className="container">
     <div className="card">
     <Profile
             nome="Maria"
@@ -32,8 +42,9 @@ export default function App(){
             nome="Pedro"
             idade={20}
             profissao="Dev"
-            foto={mulher1}
+            foto={cara1}
           />
+          </div>
           </div>
     </>
   )
