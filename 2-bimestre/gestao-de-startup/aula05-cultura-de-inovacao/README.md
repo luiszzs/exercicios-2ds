@@ -26,3 +26,7 @@ Responda:
 3. Como essa ideia poderia ser testada rapidamente?
 
 Crie sua resposta abaixo:
+
+1. Organização das saídas com a primeira turma.
+2. Cada monitoria ter um horario diferente, ex: fisica 1 minuto antes.
+3. Testar em um dia de movimentação de monitoria.

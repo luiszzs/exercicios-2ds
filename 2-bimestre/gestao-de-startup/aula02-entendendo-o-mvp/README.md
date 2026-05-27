@@ -89,3 +89,5 @@ Problema:
 > 
 
 Como você criaria um MVP para resolver esse problema? Escreva abaixo.
+
+Colocar um kanban em um local bem localizado, para que todos possam ver.

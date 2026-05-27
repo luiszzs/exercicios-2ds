@@ -101,3 +101,8 @@ Perguntas:
 4. Como evitar novamente?
 
 Crie sua resposta abaixo:
+
+1. Organização.
+2. Falta de comunição e alguém responsavel para a organização.
+3. Separar os cargos por habilidade.
+4. Sempre fazer uma organização antes de iniciar qualquer problema.

@@ -113,3 +113,7 @@ Responda:
 3. O que precisa desenvolver?
 
 Crie sua resposta abaixo:
+
+1. Design
+2. Já sei mexer um pouco no figma
+3. Criatividade
