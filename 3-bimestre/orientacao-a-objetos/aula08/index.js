@@ -16,4 +16,4 @@ class Cofre{
 
 const senha = new Cofre(1234)
 
-console.log(senha.verificarCodigo(0000))
+console.log(senha.verificarCodigo(9999))
