@@ -7,13 +7,17 @@ class Cofre{
 
     verificarCodigo(codigo){
         if(codigo == this.#codigo){
-            return true
-    }else{
-        return false
-    }
-}
+                return true
+            } else {
+                return false
+            }
+            
+        }
 }
 
-const senha = new Cofre(1234)
+const cofre = new Cofre("1234")
 
-console.log(senha.verificarCodigo(9999))
+cofre.verificarCodigo("9999")
+cofre.verificarCodigo("0000")
+
+module.exports = cofre
