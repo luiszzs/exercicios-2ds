@@ -1,4 +1,4 @@
-const { Usuario, usuario1, usuario2, usuario3 } = require("../index")
+const { Usuario, usuario1, usuario2, usuario3 } = require("../Usuario")
 
 test("A primeira instância deve possuir o nome Ana", () => {
     expect(usuario1.nome).toBe("Ana")
