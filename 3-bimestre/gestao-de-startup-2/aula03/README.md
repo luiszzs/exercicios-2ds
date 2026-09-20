@@ -193,5 +193,11 @@ Um grupo sugere imediatamente:
 Antes de desenvolver qualquer coisa, responda:
 
 1. Qual seria a primeira coisa que a equipe deveria descobrir?
+Qual o principal objetivo do aplicativo?
+
 2. Cite duas perguntas que poderiam ser feitas aos alunos.
+>"Você usaria um aplicativo escolar para se comunicar com outros alunos"
+>"O que você gostaria que tivesse no aplicativo"
+
 3. Por que não é recomendado começar desenvolvendo o aplicativo imediatamente?
+Porque os programadores não saberiam por onde começar, nem as funcionalidades, etc
