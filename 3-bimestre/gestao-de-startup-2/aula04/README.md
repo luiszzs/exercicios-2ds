@@ -204,5 +204,10 @@ Você acredita que três desses campos não são necessários e podem tornar o c
 Responda:
 
 1. Você simplesmente implementaria os cinco campos?
+Não
+
 2. O que deveria fazer antes?
+Analisar quais implementações seriam viaveis
+
 3. Como poderia apresentar sua preocupação à equipe?
+>"Algumas implementações são inviaveis nesse momento, pois ainda temos que modificar algumas coisas, um grande numero de implementações desorganizadas podem gerar inumeros erros no futuro."
