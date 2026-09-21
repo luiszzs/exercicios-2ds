@@ -219,5 +219,13 @@ Ela possui um protótipo simples desenhado em papel.
 Crie:
 
 1. Uma tarefa que será dada ao usuário.
+
+>“Imagine que você precisa adicionar uma nova tarefa de Matemática. Mostre como faria isso usando o protótipo.”
+
 2. Duas coisas que a equipe deverá observar.
+
+- Se o usuário consegue encontrar facilmente onde adicionar uma nova tarefa.
+- Se o usuário fica confuso ou precisa de ajuda durante o processo.
+
 3. Uma pergunta para fazer depois do teste.
+>“O que você achou mais difícil ou confuso ao usar o protótipo?”
