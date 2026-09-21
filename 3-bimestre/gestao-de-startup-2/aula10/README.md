@@ -314,6 +314,6 @@ A equipe possui uma versão estável, uma experiência adequada para os usuário
 
 Identifique cada uma:
 
-- MVP
-- MLP
-- MMP
+- MVP → A
+- MLP → B
+- MMP → C
