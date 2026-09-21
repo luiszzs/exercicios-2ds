@@ -128,13 +128,17 @@ _
 Classifique cada situação como **Produto** ou **Projeto**.
 
 1. Desenvolvimento de uma nova funcionalidade para um aplicativo.
-Projeto
+
+-Projeto
 
 2. Plataforma de cursos utilizada por milhares de alunos.
-Produto
+
+-Produto
 
 3. Construção de um sistema para uma empresa.
-Projeto
+
+-Projeto
 
 4. Aplicativo de delivery utilizado diariamente pelos clientes.
-Produto
+
+-Produto
