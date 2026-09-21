@@ -149,10 +149,10 @@ Leia a situação abaixo:
 Responda:
 
 1. Qual foi o problema identificado?
-Alunos esquecendo os trabalhos escolares.
+-Alunos esquecendo os trabalhos escolares.
 
 2. Em que momento ocorreu o planejamento?
-Depois de conversar com os estudantes.
+-Depois de conversar com os estudantes.
 
 3. Por que os testes foram importantes antes do lançamento?
-Para ver o que precisa melhorar e achar erros antes de lançar.
+-Para ver o que precisa melhorar e achar erros antes de lançar.
