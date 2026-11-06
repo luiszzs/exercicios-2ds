@@ -9,23 +9,26 @@ const ordens = [
 ]
 
 router.get("/ordens", (req, res) => {
+    const situacao = req.query.situacao
+    const valorMin = Number(req.query.valorMin)
+    
+    if(situacao && valorMin){
+        return res.json(ordens.filter(l => l.situacao == situacao && l.valor >= valorMin))
+    }
+    if(situacao){
+        return res.json(ordens.filter(s => s.situacao == situacao))
+    }
+    if(valorMin){
+        return res.json(ordens.filter(v => v.valor >= valorMin))
+    }
+
     res.json(ordens)
 })
 
-router.get("/encomendas", (req, res) => {
-    const status = req.query.status
-    const quantidadeMin = Number(req.query.quantidadeMin)
-    if(status && quantidadeMin){
-        return res.json(encomendas.filter(l => l.status == status && l.quantidade >= quantidadeMin))
-    }
-    if(status){
-        return res.json(encomendas.filter(s => s.status == status))
-    }
-    if(quantidadeMin){
-        return res.json(encomendas.filter(p => p.quantidade >= quantidadeMin))
-    }
-
-    res.json(encomendas)
+router.get("/ordens/resumo", (req, res) => {
+    res.json({ "total": ordens.length, "valorTotal": ordens.reduce((acumulador, atual) => {
+    return acumulador + atual.valor
+    }, 0) })
 })
 
 router.get("/ordens/:id", (req, res) => {
@@ -33,8 +36,20 @@ router.get("/ordens/:id", (req, res) => {
     const ordem = ordens.find(o => o.id === id)
 
     if(!ordem) {
-        return res.status(404).json({ "erro": "Ordem nao encontrado"})
+         res.status(404).json({ "erro": "Ordem nao encontrado"})
     }
+
+    res.json(ordem)
+})
+
+
+router.post("/ordens", validarOrdem, (req, res) => {
+    const tamanho = ordens.length
+    const novoCliente = req.body
+    novoCliente.id = tamanho + 1
+    novoCliente.situacao = "aberta"
+    ordens.push(novoCliente)
+    res.status(201).json({ "mensagem": "Registro de ordem criado"})
 })
 
 module.exports = router
