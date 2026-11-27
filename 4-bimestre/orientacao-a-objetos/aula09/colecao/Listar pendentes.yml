@@ -1,0 +1,16 @@
+info:
+  name: Listar pendentes
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: http://localhost:3000/tarefas/pendentes
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: true
